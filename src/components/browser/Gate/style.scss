@@ -1,0 +1,125 @@
+.gate{
+    height: 100%;
+    width: 1600px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto+Sans+KR'; 
+    font-size: 18px; 
+    letter-spacing: -0.5px;
+    line-height: 1;
+    display: table;
+    min-height: 950px;
+    .admin_lef_box{
+        display: table-cell;
+        width: 300px;
+        height: 100%;  
+        min-height: 900px;
+        vertical-align: top;
+        background-color: #435c79;
+        color: #fff;
+        position: relative;
+        .topBox{
+            background-color: #33475f;
+            height: 50px;
+            position: relative;
+            .homeTit{
+                color: #a1b1c0;
+                font-size: 16px;
+                font-weight: 700;
+                position: absolute;
+                left: 68px;
+                top: 50%;
+                transform: translateY(-50%);
+                cursor: pointer;
+                transition: color .3s ease;
+                
+            }
+            .homeTit:hover{
+                color: #fff;
+            }
+        }
+        .titleBox{
+            height: 210px;
+            padding-top: 50px;
+            .userImg{
+                margin-left: 85px;
+            }
+            p{
+                margin-top: 20px;
+                text-align: center;
+                font-weight: 700;
+                font-size: 27px;
+            }
+        }   
+
+        .titBox{
+            padding-top: 50px;
+            .tit{
+                margin: 0;
+                padding: 32px 0;
+                padding-left: 30px;
+                font-weight: 700;
+                font-size: 20px;
+                transition: all .3s ease;
+                cursor: pointer;
+
+            }
+            .tit.on{
+                background-color: #33475f;
+                padding-left: 40px;
+            }
+            .tit:hover{
+                padding-left: 40px;
+            }
+        }
+            
+        .adminOutBox{
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            cursor: pointer;
+            span{
+                font-weight: 700;
+                color: #a1b1c0;
+            }
+        }
+        .adminOutBox:hover span{
+            color: #fff;
+        }
+        .bottomBox{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 100px;
+            width: 100%;
+            background-color: #33475f;
+            .logo{
+                width: 250px;
+                margin-top: 25px;
+                margin-left: 15px;
+                
+            }
+        }
+    }
+    .admin_lef_box::after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+    .boxInner{
+        display: table-cell;
+        vertical-align: top;
+        width: 100%;
+        padding-bottom: 120px;
+        .adminBox{
+            margin-left: 75px;
+            padding-top: 50px;
+            width: 1000px;
+            .adminTit{
+                font-size: 28px;
+                margin-bottom: 15px;
+                font-weight: 700;
+            }
+        }
+    }
+}

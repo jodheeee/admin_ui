@@ -1,0 +1,61 @@
+.loginPage{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto+Sans+KR'; 
+    font-size: 18px; 
+    letter-spacing: -0.5px;
+    line-height: 1;
+        .inner{
+            width: 1340px; 
+            margin: 0 auto;
+            .login{
+                text-align: center; 
+                margin-top: 150px;
+                h1{
+                    font-size: 80px; 
+                    color: #435c79;
+                    font-weight: 700;
+                }    
+                .inputBox{
+                    margin-top: 40px;  
+                    input{
+                        width: 600px; 
+                        height: 80px; 
+                        padding: 0 40px; 
+                        border: 2px solid #435c79;}
+                }
+                input::placeholder{
+                    font-size: 18px;
+                }
+                .ckBox{
+                    margin-top: 40px;
+                    margin-left: 328px;
+                    text-align: left;
+                    
+                    span{
+                        font-size: 20px;
+                        margin-left: 15px;
+                        display: inline-block;
+                        vertical-align: top;
+                        margin-top: 3px;                
+                        
+                    }          
+                }
+                .loginBtBox{
+                    margin-top: 80px; 
+                    text-align: center;
+                    .loginBt{
+                        width: 690px; 
+                        height: 80px;
+                        border: 2px solid #435c79;
+                        line-height: 80px; 
+                        border-radius: 50px; 
+                        background: linear-gradient(to top, #435c79, #638ab6);
+                        color: #fff; 
+                        font-size: 25px;
+                        display: inline-block;
+                    } 
+                } 
+            }
+        }
+}
